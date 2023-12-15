@@ -4,6 +4,9 @@ import Layout from './components/Layout'
 import './styles/Animation.css'
 import { useEffect } from 'react'
 import About from './pages/About'
+import Product from './pages/Product'
+import Services from './pages/Services'
+import Login from './pages/Login'
 
 function App() {
 
@@ -33,6 +36,7 @@ function App() {
           <Route path='/' element={<Layout/>}>
               <Route index element={<About/>}/>
               <Route path='about' element={<About/>}/>
+          
 
               <Route
 						path='*'

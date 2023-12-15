@@ -9,7 +9,7 @@ const Header = () => {
     const [openSideBar, setOpenSideBar] = useState(false)
     return (
         <div className=''>
-            <div className='w-full xl:max-w-[1200px] mx-auto flex items-center left-0 right-0  absolute bg-transparent px-5 sm:px-10   lg:px-[100px] top-[56px]'>
+            <div className='w-full xl:max-w-[1200px] mx-auto flex items-center left-0 right-0  absolute bg-transparent px-5 sm:px-10   lg:px-[100px] xl:p-[0px] top-[56px]'>
                 <img src={logo} alt='logo' className='w-[120px] md:w-[162px]'/>
 
                 <div className='ml-auto gap-[40px] items-center font-[600] hidden md:flex'>
@@ -37,7 +37,7 @@ const Header = () => {
                         <img src={logo} alt='logo' className='w-[120px] md:w-[162px]'/>
 
                             <Link to={'/product'} >Product</Link>
-                            <Link to={'/service'} >Services</Link>
+                            <Link to={'/services'} >Services</Link>
                             <Link to={'/about'} >About</Link>
                             <Link to={'/login'} className='border-2 px-[40px] py-[8px] rounded-[24px] flex gap-[8px] '>Log in</Link>
                         </div>
