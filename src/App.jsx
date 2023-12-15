@@ -41,7 +41,7 @@ function App() {
               <Route
 						path='*'
 						element={
-							<div className=' flex flex-col items-center justify-center gap-5 md:gap-8 min-h-[calc(100vh-440px)]'>
+							<div className=' flex flex-col items-center justify-center gap-5 md:gap-8 min-h-[calc(100vh-440px)] py-[300px]'>
 								<p>Not found page</p>
 								<p>Service temporarily unavailable</p>
 								<div
