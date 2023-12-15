@@ -25,7 +25,7 @@ const OurBlog = () => {
             <p className='max-w-[509px] font-[400] leading-[32px] text-[20px] text-[#F1F1F1] mt-[10px]'>Mass market iPhone buzz conversion analytics stock iteration responsive web design user experience business plan handshake. Return on investment seed round MVP backing supply chain. </p>
         </div>
         <div className='flex flex-col sm:flex-row justify-between gap-5'>
-            <p className='text-[20px] sm:text-[48px] sm:leading-[72px] '>We aim for<span className='text-[#69E6A6]'>progress.</span> </p>
+            <p className='text-[20px] sm:text-[48px] sm:leading-[72px] '>We aim for <span className='text-[#69E6A6]'>progress.</span> </p>
 
             <p className='max-w-[509px] font-[400] leading-[32px] text-[20px] text-[#F1F1F1] mt-[10px]'>Bootstrapping rockstar first mover advantage business model canvas alpha deployment launch party beta facebook metrics gamification growth hacking customer focus. </p>
         </div>

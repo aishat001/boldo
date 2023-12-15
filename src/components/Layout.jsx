@@ -7,7 +7,7 @@ const Layout = () => {
     return (
         <div className=' min-h-[100vh] w-full '>
             <Header />
-            <div className='main w-full '>
+            <div className='main w-full min-h-[calc(100vh-440px)]'>
                 <Outlet />
             </div>
 
