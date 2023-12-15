@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../assets/logo.svg'
+import logo from '../assets/Logo.svg'
 import { Link } from 'react-router-dom'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { MdCancel } from "react-icons/md";
