@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router'
 import Layout from './components/Layout'
 import './styles/Animation.css'
 import { useEffect } from 'react'
-import About from './pages/about'
+import About from './pages/About'
 
 function App() {
 
